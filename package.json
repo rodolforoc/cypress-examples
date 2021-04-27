@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "greenKartTest": "npm run test -- --spec \"cypress/integration/GreenKart/*\""
   },
   "author": "Rodolfo Caetano",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.1.0"
+    "cypress": "^7.2.0"
   }
 }
