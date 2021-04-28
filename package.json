@@ -10,12 +10,19 @@
     "greenKartTest": "npm run test -- --spec \"cypress/integration/GreenKart/*\""
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   },
   "author": "Rodolfo Caetano",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^7.2.0",
-    "cypress-cucumber-preprocessor": "^4.1.0"
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
