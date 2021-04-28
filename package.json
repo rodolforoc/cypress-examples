@@ -9,9 +9,13 @@
     "chromeTest": "npm run test -- --browser chrome",
     "greenKartTest": "npm run test -- --spec \"cypress/integration/GreenKart/*\""
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "author": "Rodolfo Caetano",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.2.0"
+    "cypress": "^7.2.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
   }
 }
