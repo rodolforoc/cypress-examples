@@ -60,7 +60,7 @@ $ node_modeules\.bin\cypress open
 Para rodar o teste de BDD basta executar o arquivo com extensão .feature
 ```
 # Rode para executar apenas um único teste via CLI
-$ node_modeules\.bin\cypress run --spec .\cypress\
+$ node_modeules\.bin\cypress run --spec .\cypress\integration\examples\BDD\ecommerce.feature
 
 # running Cypress
 ```
