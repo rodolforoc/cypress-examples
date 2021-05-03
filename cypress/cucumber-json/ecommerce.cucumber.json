@@ -28,7 +28,7 @@
             "name": "I open Ecommerce Page",
             "result": {
               "status": "passed",
-              "duration": 3897000000
+              "duration": 7940000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I add items to Cart",
             "result": {
               "status": "passed",
-              "duration": 2505000000
+              "duration": 8443000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Validate the total prices",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 106000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Select the country submit and verify Thank you",
             "result": {
               "status": "passed",
-              "duration": 5476000000
+              "duration": 5849000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "I open Ecommerce Page",
             "result": {
               "status": "passed",
-              "duration": 1580000000
+              "duration": 4271000000
             }
           },
           {
@@ -110,7 +110,7 @@
             "name": "I fill the form details",
             "result": {
               "status": "passed",
-              "duration": 404000000
+              "duration": 495000000
             }
           },
           {
@@ -120,7 +120,7 @@
             "name": "validate the forms behaviour",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 114000000
             }
           },
           {
@@ -130,7 +130,7 @@
             "name": "select the Shop Page",
             "result": {
               "status": "passed",
-              "duration": 530000000
+              "duration": 576000000
             }
           }
         ]

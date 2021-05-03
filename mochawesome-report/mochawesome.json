@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-04-30T14:05:49.945Z",
-    "end": "2021-04-30T14:06:02.339Z",
-    "duration": 12394,
+    "start": "2021-05-03T19:54:37.897Z",
+    "end": "2021-05-03T19:54:49.414Z",
+    "duration": 11517,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a3f84639-ae42-4cb8-a948-046a04b90c81",
+      "uuid": "4c78a102-ff1c-4c96-bfd3-41e275948c7e",
       "title": "",
       "fullFile": "cypress/integration/examples/test2.js",
       "file": "cypress/integration/examples/test2.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a9bb58bc-cf80-4ba1-bffb-41281453cedd",
+          "uuid": "7cb71101-7206-4655-8580-c59573fb6430",
           "title": "My Second Test Suite",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "My Second Test case",
               "fullTitle": "My Second Test Suite My Second Test case",
               "timedOut": null,
-              "duration": 8857,
+              "duration": 8511,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://rahulshettyacademy.com/seleniumPractise/#/\");\ncy.get('.search-keyword').type('ca');\ncy.wait(2000);\ncy.get('.products').as('productLocator');\ncy.get('@productLocator').find('.product').each(function ($el, index, $list) {\n  var textVeg = $el.find('h4.product-name').text();\n  if (textVeg.includes('Cashews')) {\n    $el.find('button').click();\n  }\n});\ncy.get('.cart-icon > img').click();",
               "err": {},
-              "uuid": "2c0eee56-6c18-41a7-9109-f10ba0e8ffe0",
-              "parentUUID": "a9bb58bc-cf80-4ba1-bffb-41281453cedd",
+              "uuid": "ecc160c5-d847-47e1-8924-537c0d3ffb4f",
+              "parentUUID": "7cb71101-7206-4655-8580-c59573fb6430",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2c0eee56-6c18-41a7-9109-f10ba0e8ffe0"
+            "ecc160c5-d847-47e1-8924-537c0d3ffb4f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8857,
+          "duration": 8511,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
